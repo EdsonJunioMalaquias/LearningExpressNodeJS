@@ -4,4 +4,4 @@
 
 npm install
 
-set DEBUG=myapp:* & npm start
+nodemon src/bin/www
