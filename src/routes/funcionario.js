@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
+const FuncionarioController = require('../controllers/funcionarioController');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.send('teste');
-});
+router.post('/', FuncionarioController.store); 
 
 module.exports = router;

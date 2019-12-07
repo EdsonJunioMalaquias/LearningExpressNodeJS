@@ -3,7 +3,7 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const funcionarioRouter = require ('./routes/funcionario');
-
+require('./database');
 const app = express();
 const port = '3000';
 
